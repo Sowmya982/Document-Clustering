@@ -25,5 +25,6 @@ Elbow method is to determine the optimal value for number of clusters in k-means
 Kmeans clustering is a clustering algorithm which first initializes k-points randomly and then by finding Euclidean distance assign all the points to nearest centroids therefore creating k groups then we find the original centroid by calculating the average after which we reassign the whole data points on this new centroid then repeat the last step until the centroid position doesn’t change.
 
 #### Word-Cloud for easy Visualization: 
-![This is an image](https://miro.medium.com/max/1400/1*V9ac4hLVyms79jl65Ym_Bw.jpeg)
+![This is an image](https://miro.medium.com/max/1133/1*P26SDjxYEsXVWIrk254jFw.jpeg)
+
 To display the final output of the project we used wordcloud which is generally used for representing the text data where the size of each word defines its frequency or  importance in the document. This is generally used to find the significant textual data point by indicating with large size. In the process of generating the wordcloud we use   matplotlib, pandas to read the file.
